@@ -15,8 +15,19 @@ em {
 }
 
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
 .link1 a {
- 
+  color: inherit;
+  padding: 10px;
 }
 
 .link2 a {
@@ -25,7 +36,6 @@ em {
 }
 
 .link3 a {
-  
   color: unset;
   padding: unset;
 }
@@ -40,4 +50,3 @@ em {
   font-weight: bold;
   font-style: inherit;
 }
-
